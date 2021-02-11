@@ -18,7 +18,6 @@ public with sharing class qsyd_InvocableEmailActionTest {
     private static final String USER = 'User';
 
     private static final String CONTACT_EXAMPLE = '0034P000032P9DZQA0';
-    private static final String CONTENTVERSION_EXAMPLES = '0694P00000FBYDyQAP,0694P00000FBvklQAD';
     private static final String CASE_EXAMPLE = '5004P00001GeAvbQAF';
     private static final String EMAIL_EXAMPLE = 'david.b.robitaille@gmail.com';
     private static final String INREPLYTO_EXAMPLE = 'drobitaille@dymax.com';
@@ -54,7 +53,6 @@ public with sharing class qsyd_InvocableEmailActionTest {
         param.bodyPlainText = 'Plain text body';
         param.bodyHtml = '<html><body><strong>Rich text body</strong></body></html>';
         param.charSet = 'utf-8';
-        param.attachmentIds = CONTENTVERSION_EXAMPLES;
         param.whatId = CASE_EXAMPLE;
         param.parentMessageIds = INREPLYTO_EXAMPLE;
         param.orgWideEmailAddress = '';
