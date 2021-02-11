@@ -17,12 +17,11 @@ public with sharing class qsyd_InvocableEmailActionTest {
     private static final String CONTACT = 'Contact';
     private static final String USER = 'User';
 
-    private static final String CONTACT_EXAMPLE = '0034P00002PYwXAQA1';
-    private static final String CONTENTVERSION_EXAMPLES = '0684P00000ARbLNQA1,0684P00000ARbLIQA1';
-    private static final String CASE_EXAMPLE = '5004P00000XFXikQAH';
-    private static final String EMAIL_EXAMPLE = '02s4P00000lnXqBQAU';
-    private static final String INREPLYTO_EXAMPLE = 'topic/2734@dsalesforce.com';
-    private static final String ORGWIDEEMAILADDRESS_EXAMPLE = '0D24P000002AHEMSA4';
+    private static final String CONTACT_EXAMPLE = '0034P000032P9DZQA0';
+    private static final String CONTENTVERSION_EXAMPLES = '0694P00000FBYDyQAP,0694P00000FBvklQAD';
+    private static final String CASE_EXAMPLE = '5004P00001GeAvbQAF';
+    private static final String EMAIL_EXAMPLE = 'david.b.robitaille@gmail.com';
+    private static final String INREPLYTO_EXAMPLE = 'drobitaille@dymax.com';
 
     static Account testAccount;
 
